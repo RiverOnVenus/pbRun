@@ -23,7 +23,7 @@ on:
 env:
   NODE_VERSION: '22'
   # 默认同步源 (push 和 schedule 触发时使用)
-  DEFAULT_SYNC_SOURCE: 'strava'
+  DEFAULT_SYNC_SOURCE: 'garmin'
 
 permissions:
   contents: write
